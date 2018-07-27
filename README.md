@@ -24,6 +24,13 @@ Download default Docker compose file for the latest version or configure your ow
 docker-compose -p reportportal up -d --force-recreate
 ```
 
++ Open ReportPortal in new browser tab and login
+```
+# For user access:
+default/ 1q2w3e
+# or admin access:
+superadmin/erebu
+```
 + Add more dependencies to pom file
 
 
