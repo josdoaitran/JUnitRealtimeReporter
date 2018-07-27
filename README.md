@@ -28,12 +28,19 @@ docker-compose -p reportportal up -d --force-recreate
 ```
 
 + Open ReportPortal in new browser tab and login
+Open your browser with the IP address of the deployed enviroment at port 8080
+```
+http://IP_ADDRESS:8080
+```
+Login with default credetials
 ```
 # For user access:
 default/ 1q2w3e
 # or admin access:
 superadmin/erebu
 ```
+=> change the password for security
+
 + Add more dependencies to pom file
 
 
